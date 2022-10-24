@@ -1,0 +1,334 @@
+@media (max-width: 960px){
+    .Layout1-container{
+        //   HEADER
+        &__header{
+            font-size: 20px;
+        }
+        // BARRA DE NAVEGACION
+        &__nav{
+            &--logo a img {
+                padding: 0px 15px;
+                height: 100px;
+            }
+            &--text {            
+                font-size: 15px;
+                padding-right: 10px;
+            }
+            &--text img{
+                width: 20px;
+                height: auto;
+            }
+        }
+        // PROMOCIONES
+        &__section1 {
+            height: 80%;
+            font-size: 20px;
+            padding: 5px;        
+         &__section1 a {
+             padding: 0px 5px;
+            }
+         &__section1 a img {               
+             border: #97560f groove 5px;
+             border-radius: 15px;
+             width: 80%;
+             height: auto;
+            }    
+         &__section1 h2 {            
+             letter-spacing: 2px;
+            }
+        }
+        //  EVENTOS
+        &__section2 {
+            height: 80%;
+            font-size: 20px;
+            padding: 5px;
+            &__section2 a{
+             padding: 0px 5px;
+            }
+            &__section2 a img {               
+             border: #ab3c34 groove 5px;
+             border-radius: 15px;
+             width: 80%;
+             height: auto;
+            }
+            &__section2 h2 {            
+             letter-spacing: 2px;
+            }
+        }
+        // TARJETAS
+        &__section3 {
+            grid-column: 1 / 5;
+            grid-row: 5 / 6;
+            &--pictures{
+                display: flex;
+                flex-wrap: wrap;
+                margin: 10px;
+            }          
+        }
+        .Dessert-cards {
+            width: 200px;
+            padding: 15px 0px;
+            border-radius: 50px;
+            margin: 3px 8px 0 8px;
+            &__Img{
+                width: 150px;
+                border-radius: 50px;
+            }
+            &__Text{
+                padding: 8px;
+                font-size: 20px;
+            }
+            &__Link{
+                font-size: 18px;
+                padding: 3px 5px;
+                border-radius: 20px;
+            }
+        }
+        //  HORARIOS
+        &__section4{
+            font-size: 15px;
+            margin-bottom: 0 5px 15px 5px;
+            line-height: 25px;
+        }
+        &__section4 h2{
+            font-size: 20px;            
+            padding-bottom: 0px;            
+            letter-spacing: 1px;
+        }
+        &__section5{
+            font-size: 15px;            
+            margin: 0px 5px 15px 5px;
+            &--location{
+                padding: 10px;                           
+            }
+            &--location img{
+                width: 200px;
+                height: auto;
+                margin-left: 15px; 
+            }
+        }
+        &__section5 h2{
+            font-size: 20px;
+            padding-bottom: 0px;            
+            letter-spacing: 1px;
+        }
+
+        //  CONTACTO
+        &__section6 {
+            font-size: 15px;            
+            margin-bottom: 0 5px 15px 5px;
+            line-height: 25px;
+            padding: 10px;
+            overflow-wrap: break-word;
+            &--contact {
+                width: 35px;
+                padding: 8px;
+            }
+            &--text {
+                display: flex;
+                align-content: center;
+                justify-content: center;
+            }
+        }
+        &__section6 h2 {
+            font-size: 20px;
+            padding-bottom: 0px;
+            letter-spacing: 1px;
+        }
+        &__section6 p {
+            padding-left: 5px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        // REDES SOCIALES
+        &__footer {
+            font-size: 18px;
+            &__social-media {
+                width: 35px;
+                padding: 5px 10px 0 0;
+            }
+        }
+         
+    }
+
+}
+
+
+
+
+
+
+@media (max-width: 480px){
+    .Layout1-container {
+
+        //   HEADER
+        &__header{
+            font-size: 15px;
+        }
+
+        // BARRA DE NAVEGACION
+        &__nav{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            align-items: center;
+            &--logo a img {
+             padding: 0px 10px;
+             width: 90px;
+             height: auto;
+            }
+            &--menu {
+                display: flex;
+                flex-wrap: wrap;                
+                justify-content: end;
+            }
+            &--text {
+             display: flex;
+             flex-direction: column;
+             font-size: 12px;
+             padding-left: 5px;
+             margin: 2px;
+            }
+            &--text img {
+                width: 18px;
+                height: auto;
+            }
+        }
+        
+        // PROMOCIONES
+        &__section1 {
+            grid-column: 1 / 5;
+            margin: 0px 15px 0px;
+            padding: 10px 0px;
+            &__section1 a img {
+                border: #97560f groove 0px;
+                border-radius: 2px;
+                width: 100%;
+                height: auto;
+            }
+            &__section1 h2 {
+                letter-spacing: 0px;
+                font-size: 25px;
+            }
+        }
+
+        //  EVENTOS
+        &__section2 {
+            grid-column: 1 / 5;
+            grid-row: 5 / 6;
+            margin: 0px 15px 0px;
+            padding: 10px 0;
+            &__section2 a img {               
+               border: #ab3c34 groove 0px;
+               border-radius: 2px;
+               width: 100%;
+               height: auto;
+            }    
+            &__section2 h2 {            
+               letter-spacing: 0px;
+               font-size: 25px;
+            }                
+        }
+
+        // TARJETAS
+        &__section3 {
+            grid-row: 6 / 7;
+            font-size: 15px;
+            margin: 0px 0px 15px;
+            &--pictures{
+                margin: 10px;
+                display: flex;
+                flex-wrap: wrap;
+            }          
+        }
+        .Dessert-cards {
+            width: 180px;
+            padding: 15px 0px;
+            border-radius: 50px;
+            margin: 3px 5px 5px 5px;
+            &__Img{
+                width: 140px;
+                border-radius: 50px;
+            }
+            &__Text{
+                padding: 8px;
+                font-size: 15px;
+            }
+            &__Link{
+                font-size: 15px;
+                padding: 3px 5px;
+                border-radius: 20px;
+            }
+        }
+        //  HORARIOS
+        &__section4{
+            grid-column: 1 / 5;
+            grid-row: 7 / 8; 
+            font-size: 15px;
+            padding: 5px 0;
+            line-height: 20px;
+            margin: 0px 20px 10px 20px;
+        }
+        &__section4 h2{
+            font-size: 22px;
+            padding: 4px;
+            letter-spacing: 1px;
+        }
+        //  UBICACION
+        &__section5 {
+            grid-column: 1 / 5;
+            grid-row: 8 / 9;
+            font-size: 15px;
+            padding: 10px 0;
+            line-height: 20px;
+            margin: 0px 20px 10px 20px;
+            display: flex;
+            flex-direction: column;            
+            &--location {
+                display: flex;
+                flex-direction: column;
+            }           
+            &--location img {
+               width: 180px;
+               border-radius: 10px;
+               margin-top: 10px;
+               margin-left: 0px;
+            }
+            &__section5 h2{
+                padding: 5px 0;
+                font-size: 22px;
+                letter-spacing: 1px;
+            } 
+        }
+
+        //  CONTACTO
+        &__section6 {
+            margin: 0px 20px 10px 20px;
+            font-size: 15px;
+            padding: 10px 0;
+            grid-column: 1 / 5;
+            grid-row: 9 / 10;
+            &--contact {
+                width: 30px;
+                padding: 5px;          
+            }
+        }
+        &__section6 h2{
+            padding: 5px 0;
+            font-size: 22px;
+            letter-spacing: 1px;
+        }
+
+        // REDES SOCIALES
+        &__footer {
+            grid-row: 10 / 11;
+            font-size: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            &__social-media {
+                width: 30px;
+                padding: 2px 5px 0 0;
+            }
+        }  
+    }
+}
