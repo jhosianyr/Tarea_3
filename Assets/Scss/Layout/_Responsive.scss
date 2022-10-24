@@ -23,38 +23,38 @@
         &__section1 {
             height: 80%;
             font-size: 20px;
-            padding: 5px;        
-         &__section1 a {
-             padding: 0px 5px;
-            }
-         &__section1 a img {               
-             border: #97560f groove 5px;
-             border-radius: 15px;
-             width: 80%;
-             height: auto;
-            }    
-         &__section1 h2 {            
-             letter-spacing: 2px;
-            }
+            padding: 5px;
         }
+        &__section1 a {
+            padding: 0px 5px;
+           }
+        &__section1 a img {               
+            border: #97560f groove 5px;
+            border-radius: 15px;
+            width: 80%;
+            height: auto;
+           }    
+        &__section1 h2 {            
+            letter-spacing: 2px;
+           }
         //  EVENTOS
         &__section2 {
             height: 80%;
             font-size: 20px;
             padding: 5px;
-            &__section2 a{
-             padding: 0px 5px;
-            }
-            &__section2 a img {               
-             border: #ab3c34 groove 5px;
-             border-radius: 15px;
-             width: 80%;
-             height: auto;
-            }
-            &__section2 h2 {            
-             letter-spacing: 2px;
-            }
         }
+        &__section2 a{
+            padding: 0px 5px;
+           }
+           &__section2 a img {               
+            border: #ab3c34 groove 5px;
+            border-radius: 15px;
+            width: 80%;
+            height: auto;
+           }
+           &__section2 h2 {            
+            letter-spacing: 2px;
+           }
         // TARJETAS
         &__section3 {
             grid-column: 1 / 5;
@@ -148,15 +148,8 @@
                 padding: 5px 10px 0 0;
             }
         }
-         
     }
-
 }
-
-
-
-
-
 
 @media (max-width: 480px){
     .Layout1-container {
@@ -200,16 +193,16 @@
             grid-column: 1 / 5;
             margin: 0px 15px 0px;
             padding: 10px 0px;
-            &__section1 a img {
-                border: #97560f groove 0px;
-                border-radius: 2px;
-                width: 100%;
-                height: auto;
-            }
-            &__section1 h2 {
-                letter-spacing: 0px;
-                font-size: 25px;
-            }
+        }
+        &__section1 a img {
+            border: #97560f groove 0px;
+            border-radius: 2px;
+            width: 100%;
+            height: auto;
+        }
+        &__section1 h2 {
+            letter-spacing: 0px;
+            font-size: 25px;
         }
 
         //  EVENTOS
@@ -218,17 +211,17 @@
             grid-row: 5 / 6;
             margin: 0px 15px 0px;
             padding: 10px 0;
-            &__section2 a img {               
-               border: #ab3c34 groove 0px;
-               border-radius: 2px;
-               width: 100%;
-               height: auto;
-            }    
-            &__section2 h2 {            
-               letter-spacing: 0px;
-               font-size: 25px;
-            }                
         }
+        &__section2 a img {               
+            border: #ab3c34 groove 0px;
+            border-radius: 2px;
+            width: 100%;
+            height: auto;
+         }    
+         &__section2 h2 {            
+            letter-spacing: 0px;
+            font-size: 25px;
+         }
 
         // TARJETAS
         &__section3 {
@@ -294,11 +287,11 @@
                margin-top: 10px;
                margin-left: 0px;
             }
-            &__section5 h2{
-                padding: 5px 0;
-                font-size: 22px;
-                letter-spacing: 1px;
-            } 
+        }
+        &__section5 h2{
+            padding: 5px 0;
+            font-size: 22px;
+            letter-spacing: 1px;
         }
 
         //  CONTACTO
