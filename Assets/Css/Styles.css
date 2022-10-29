@@ -29,7 +29,7 @@ section {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: repeat(6);
-  background-image: url(/Assets/Recursos/Bcg.png);
+  background-image: url(../../assets/recursos/bcg.png);
   height: auto;
   background-size: 100%;
   max-width: 1328px;
@@ -452,16 +452,16 @@ input[id="3"]:checked ~ .pagination .pagination__item[for="3"] {
     font-size: 20px;
     padding: 5px;
   }
-  .Layout1-container__section1__section1 a {
+  .Layout1-container__section1 a {
     padding: 0px 5px;
   }
-  .Layout1-container__section1__section1 a img {
+  .Layout1-container__section1 a img {
     border: #97560f groove 5px;
     border-radius: 15px;
     width: 80%;
     height: auto;
   }
-  .Layout1-container__section1__section1 h2 {
+  .Layout1-container__section1 h2 {
     letter-spacing: 2px;
   }
   .Layout1-container__section2 {
@@ -469,16 +469,16 @@ input[id="3"]:checked ~ .pagination .pagination__item[for="3"] {
     font-size: 20px;
     padding: 5px;
   }
-  .Layout1-container__section2__section2 a {
+  .Layout1-container__section2 a {
     padding: 0px 5px;
   }
-  .Layout1-container__section2__section2 a img {
+  .Layout1-container__section2 a img {
     border: #ab3c34 groove 5px;
     border-radius: 15px;
     width: 80%;
     height: auto;
   }
-  .Layout1-container__section2__section2 h2 {
+  .Layout1-container__section2 h2 {
     letter-spacing: 2px;
   }
   .Layout1-container__section3 {
@@ -606,13 +606,13 @@ input[id="3"]:checked ~ .pagination .pagination__item[for="3"] {
     margin: 0px 15px 0px;
     padding: 10px 0px;
   }
-  .Layout1-container__section1__section1 a img {
+  .Layout1-container__section1 a img {
     border: #97560f groove 0px;
     border-radius: 2px;
     width: 100%;
     height: auto;
   }
-  .Layout1-container__section1__section1 h2 {
+  .Layout1-container__section1 h2 {
     letter-spacing: 0px;
     font-size: 25px;
   }
@@ -622,13 +622,13 @@ input[id="3"]:checked ~ .pagination .pagination__item[for="3"] {
     margin: 0px 15px 0px;
     padding: 10px 0;
   }
-  .Layout1-container__section2__section2 a img {
+  .Layout1-container__section2 a img {
     border: #ab3c34 groove 0px;
     border-radius: 2px;
     width: 100%;
     height: auto;
   }
-  .Layout1-container__section2__section2 h2 {
+  .Layout1-container__section2 h2 {
     letter-spacing: 0px;
     font-size: 25px;
   }
@@ -694,7 +694,7 @@ input[id="3"]:checked ~ .pagination .pagination__item[for="3"] {
     margin-top: 10px;
     margin-left: 0px;
   }
-  .Layout1-container__section5__section5 h2 {
+  .Layout1-container__section5 h2 {
     padding: 5px 0;
     font-size: 22px;
     letter-spacing: 1px;
@@ -727,4 +727,4 @@ input[id="3"]:checked ~ .pagination .pagination__item[for="3"] {
   }
 }
 
-/*# sourceMappingURL=Styles.css.map */
+/*# sourceMappingURL=styles.css.map */
